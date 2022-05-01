@@ -18,7 +18,7 @@
     <!-- toggle fullscreen with a button -->
     <div id="fullscreenToggler" class="startHUD bottomBound">
       <input type="button" id="fullscreenToggleButton"
-             value="toggle fullscreen" />
+             value="Pantalla completa" />
     </div>
     
     <!-- <\!-- insert temporary political advertisement here -\-> -->
@@ -34,40 +34,40 @@
     </div>
     <div id="popupGUI" class="HUD noSelection rightBound">
       <fieldset name="controlFields">
-        <legend class="alignRight">NURDS look</legend>
-        <input type="button" id="hidePopupGUIButton" value="Hide"
+        <legend class="alignRight">apariencia de NURDS</legend>
+        <input type="button" id="hidePopupGUIButton" value="Ocultar"
                class="alignRight boundRight" />
         <br />
         <div class="HUDcontent">
           <input type="checkbox" id="checkbox-showpack" value="showpack" />
-          Highlight pack skaters<br />
+          Resaltar patinadores del pack<br />
           <input type="checkbox" id="checkbox-shownopack" value="shownopack" />
-          Highlight no-pack skaters<br />
+          Resaltar patinadores si no hay pack<br />
           <input type="checkbox" id="checkbox-showOOP" value="showOOP" />
-          Highlight out-of-play skaters<br />
+          Resaltar patinadores fuera de juego<br />
           <input type="checkbox" id="checkbox-showOOB" value="showOOB" />
-          Highlight out-of-bounds skaters<br />
+          Resaltar patinadores fuera de los limites<br />
           <input type="checkbox" id="checkbox-showdown" value="showdown" />
-          Highlight downed skaters<br />
+          Resaltar patinadores caides<br />
           <input type="checkbox" id="checkbox-showEZ" value="showEZ" />
-          Show engagement zone<br />
+          Mostrar zona de interaccion<br />
           <input type="checkbox" id="checkbox-shownumbers"
                  value="shownumbers" />
-          Show skater numbers<br />
+          Mostrar numeros de patinadores<br />
           <input type="checkbox" id="checkbox-showzebras" value="showzebras" />
-          Show skating officials<br />
+          Mostrar oficiales en patines<br />
           <input type="checkbox" id="checkbox-showmiddleline"
                  value="showmiddleline"/>
-          Show middle line<br />
+          Mostrar linea central<br />
           <input type="button" id="button-fastrewind" value="<<" />
           <input type="button" id="button-rewind" value="<" />
-          Browse history
+          Navegar historial
           <input type="button" id="button-forward" value=">" />
           <input type="button" id="button-fastforward" value=">>" />
           <br />
-          <input type="button" id="button-resethistory" value="reset history" />
+          <input type="button" id="button-resethistory" value="resetear historial" />
           <br />
-          <input type="button" id="button-savebookmark" value="save bookmark" />
+          <input type="button" id="button-savebookmark" value="guardar marcador" />
           <select id="select-bookmarks">
             <option value="0">1</option>
             <option value="1">2</option>
@@ -90,13 +90,13 @@
             <option value="18">19</option>
             <option value="19">20</option>
           </select>
-          <input type="button" id="button-loadbookmark" value="load bookmark" />
+          <input type="button" id="button-loadbookmark" value="cargar marcador" />
           <br />
-          <input type="color" id="button-colour-teamA" /> Team A colour
+          <input type="color" id="button-colour-teamA" /> Color Equipo A
           <br />
-          <input type="color" id="button-colour-teamB" /> Team B colour
+          <input type="color" id="button-colour-teamB" /> Color Equipo B
           <br />
-          Theme
+          Tema
           <select id="select-theme">
           </select>
         </div>
@@ -109,39 +109,38 @@
     </div>
     <div id="cheatSheet" class="HUD leftBound noSelection">
       <fieldset>
-        <legend class="alignRight">Cheat sheet</legend>
-        <input type="button" id="hideCheatSheetButton" value="Hide" />
+        <legend class="alignRight">Machete</legend>
+        <input type="button" id="hideCheatSheetButton" value="Ocultar" />
         <div class="HUDcontent">
           <dl>
-            <dt><kbd>🌈</kbd></dt><dd><a style="color: orange;" href="about.html">About NURDS</a></dd>
-            <dt><kbd>C</kbd></dt><dd>Toggle cheat sheet</dd>
-            <dt><kbd>double-click</kbd></dt><dd>Toggle down/upright
-            skater status</dd>
-            <dt><kbd>[space]</kbd></dt><dd>Toggle pack highlighting</dd>
-            <dt><kbd>F</kbd></dt><dd>Toggle fullscreen mode</dd>
-            <dt><kbd>N</kbd></dt><dd>Toggle no-pack highlighting</dd>
-            <dt><kbd>P</kbd></dt><dd>Toggle out-of-play highlighting</dd>
-            <dt><kbd>B</kbd></dt><dd>Toggle out-of-bounds highlighting</dd>
-            <dt><kbd>D</kbd></dt><dd>Toggle downed skaters highlighting</dd>
-            <dt><kbd>E</kbd></dt><dd>Toggle engagement zone</dd>
-            <dt><kbd>M</kbd></dt><dd>Toggle skater numbers</dd>
-            <dt><kbd>Z</kbd></dt><dd>Toggle skating officials</dd>
-            <dt><kbd>V</kbd></dt><dd>Toggle middle line</dd>
-            <dt><kbd>S</kbd></dt><dd>Skate (faster with [shift])</dd>
-            <dt><kbd>R</kbd></dt><dd>Skate backwards (faster with [shift])</dd>
-            <dt><kbd>0-9</kbd></dt><dd>Load bookmark 0-9 (+10 with [alt])</dd>
+            <dt><kbd>🌈</kbd></dt><dd><a style="color: orange;" href="about.html">Acerca de NURDS</a></dd>
+            <dt><kbd>C</kbd></dt><dd>Activar/desactivar machete</dd>
+	    <dt><kbd>double-click</kbd></dt><dd>Cambiar estado de patinadore caide/en pie</dd>
+            <dt><kbd>[space]</kbd></dt><dd>Activar/desactivar pack resaltado</dd>
+            <dt><kbd>F</kbd></dt><dd>Activar/desactivar modo pantalla completa</dd>
+            <dt><kbd>N</kbd></dt><dd>Activar/desactivar no-pack resaltado</dd>
+            <dt><kbd>P</kbd></dt><dd>Activar/desactivar fuera de juego resaltado</dd>
+            <dt><kbd>B</kbd></dt><dd>Activar/desactivar fuera de los limites resaltado</dd>
+            <dt><kbd>D</kbd></dt><dd>Activar/desactivar patinadores caides resaltades</dd>
+            <dt><kbd>E</kbd></dt><dd>Activar/desactivar zona de interaccion</dd>
+            <dt><kbd>M</kbd></dt><dd>Activar/desactivar numeros de patinadores</dd>
+            <dt><kbd>Z</kbd></dt><dd>Activar/desactivar oficiales en patines</dd>
+            <dt><kbd>V</kbd></dt><dd>Activar/desactivar linea central</dd>
+            <dt><kbd>S</kbd></dt><dd>Patinar (mas rapido apretando [shift])</dd>
+            <dt><kbd>R</kbd></dt><dd>Patinar hacia atras (mas rapido apretando [shift])</dd>
+            <dt><kbd>0-9</kbd></dt><dd>Cargar marcador 0-9 (+10 apretando [alt])</dd>
             <dt><kbd>[shift] 0-9</kbd></dt>
-            <dd>Save bookmark 0-9 (+10 with [alt])</dd>
-            <dt><kbd>[left-right] or mouse wheel</kbd></dt>
-            <dd>Navigate through history</dd>
-            <dt><kbd>[alt] mouse wheel</kbd></dt>
-            <dd>Navigate through bookmarks</dd>
-            <dt><kbd>[shift] while dragging</kbd></dt>
-            <dd>Skaters follow the track</dd>
-            <dt><kbd>[esc]</kbd></dt><dd>Reset history</dd>
-            <dt><kbd>I</kbd></dt><dd>Toggle GUI controls</dd>
-            <dt><kbd>G</kbd></dt><dd>Dump screenshot<dd></dd>
-            <dt><kbd>H</kbd></dt><dd>Start/stop recording<dd></dd>
+            <dd>Guardar marcador 0-9 (+10 apretando [alt])</dd>
+            <dt><kbd>[izq-der] o scroll del mouse</kbd></dt>
+            <dd>Navegar el historial</dd>
+            <dt><kbd>[alt] scroll del mouse</kbd></dt>
+            <dd>Navegar los marcadores</dd>
+            <dt><kbd>[shift] mientras arrastras</kbd></dt>
+            <dd>Patinadores siguen la pista</dd>
+            <dt><kbd>[esc]</kbd></dt><dd>Resetear historial</dd>
+            <dt><kbd>I</kbd></dt><dd>Activar/desactivar controles GUI</dd>
+            <dt><kbd>G</kbd></dt><dd>Captura de pantalla<dd></dd>
+            <dt><kbd>H</kbd></dt><dd>Iniciar/parar grabacion de video<dd></dd>
           </dl>
         </div>
       </fieldset>
