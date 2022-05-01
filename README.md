@@ -1,3 +1,8 @@
+This is a spanish verison of https://nurds.space all credit to them
+
+#########
+
+
 # NURDS
 New Ultimate Roller Derby Simulator
 
