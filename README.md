@@ -1,4 +1,6 @@
 This is a spanish verison of https://nurds.space all credit to them
+you can find a docker image of this in:
+https://hub.docker.com/repository/docker/lsastre/nurds-esp
 
 #########
 
