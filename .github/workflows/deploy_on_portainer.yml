@@ -37,7 +37,7 @@ jobs:
         with:
           context: docker/.
           push: true
-          tags: ${{ env.DOCKER_IMAGE_URI }}:${{ env.IMAGE_TAG }},${{ env.DOCKER_IMAGE_URI }}:latest
+          tags: lsastre/nurds-esp:latest #${{ env.DOCKER_IMAGE_URI }}:${{ env.IMAGE_TAG }},${{ env.DOCKER_IMAGE_URI }}:latest
 
       - name: Sleep for 10 seconds
         run: sleep 10s
